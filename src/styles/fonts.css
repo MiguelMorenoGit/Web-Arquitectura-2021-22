@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Woodford" ;
+    src: local('Woodford'), url(../fonts/Woodford/WoodfordBournePRO-Regular.otf) format('opentype');
+}
+@font-face {
+    font-family: "Woodford_Bold" ;
+    src: local('Woodford'), url(../fonts/Woodford/WoodfordBournePRO-Bold.otf) format('opentype');
+}
+@font-face {
+    font-family: "Woodford_Thin" ;
+    src: local('Woodford'), url(../fonts/Woodford/WoodfordBournePRO-Thin.otf) format('opentype');
+}
+@font-face {
+    font-family: "Roboto" ;
+    src: local('Roboto'), url(../fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: "Roboto_Black" ;
+    src: local('Roboto'), url(../fonts/Roboto/Roboto-Black.ttf) format('truetype');
+}
+@font-face {
+    font-family: "Roboto_Thin" ;
+    src: local('Roboto'), url(../fonts/Roboto/Roboto-Thin.ttf) format('truetype');
+}
+@font-face {
+    font-family: "Heebo" ;
+    src: local('Heebo'), url(../fonts/Heebo/Heebo-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: "Heebo_Black" ;
+    src: local('Heebo'), url(../fonts/Heebo/Heebo-Black.ttf) format('truetype');
+}
+@font-face {
+    font-family: "Heebo_Thin" ;
+    src: local('Heebo'), url(../fonts/Heebo/Heebo-Thin.ttf) format('truetype');
+}

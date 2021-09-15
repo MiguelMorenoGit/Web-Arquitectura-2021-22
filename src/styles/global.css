@@ -1,0 +1,20 @@
+
+body {
+    font-family: 'Woodford_Bold', Courier, monospace;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 10px;
+    text-align: center;
+}
+.fontBold {
+    font-family: 'Woodford_Bold', 'Roboto_Black', Courier, monospace;
+}
+.fontRegular {
+    font-family: 'Woodford_Regular', 'Roboto', Courier, monospace;
+}
+.fontThin {
+    font-family: 'Woodford_Thin', 'Roboto_Thin', Courier, monospace;
+}
+.robotoThin {
+    font-family: 'Roboto_Thin', Courier, monospace;
+}
