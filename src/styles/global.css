@@ -1,10 +1,22 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    color: rgba(56,60,80,.8);
+    font-family: "PT Serif",serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    word-wrap: break-word;
     font-family: 'Woodford_Bold', Courier, monospace;
-    font-size: 1.3rem;
-    font-weight: 700;
-    letter-spacing: 10px;
-    text-align: center;
 }
 .fontBold {
     font-family: 'Woodford_Bold', 'Roboto_Black', Courier, monospace;
@@ -17,4 +29,30 @@ body {
 }
 .robotoThin {
     font-family: 'Roboto_Thin', Courier, monospace;
+}
+
+article, aside, footer, header, nav, section {
+    display: block;
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+    border: 0;
+}
+
+li, ol, ul {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
 }

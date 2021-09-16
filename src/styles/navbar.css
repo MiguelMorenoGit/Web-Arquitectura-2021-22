@@ -1,0 +1,219 @@
+.cs-header {
+    position: relative;
+    z-index: 2000;
+}
+
+.cs-header .main-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.cs-header__wrapp {
+    position: relative;
+    padding: 30px 0;
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    background-color: #fff;
+}
+
+.cs-header--fixed .cs-header__wrapp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    -webkit-transition: background-color .2s ease;
+    -o-transition: background-color .2s ease;
+    transition: background-color .2s ease;
+    background-color: transparent;
+}
+
+.cs-header__content-wr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 1199px) {
+    .cs-header__content-wr {
+        max-width: 970px;
+    }
+}
+
+.cs-logo--header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 15%;
+}
+
+.cs-header--fixed:not([class$="-menu"]) .cs-logo__link {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.cs-logo {
+    position: relative;
+}
+
+.cs-logo__link {
+    display: inline-block;
+    -webkit-transition: opacity .2s ease,visibility .2s ease,color .2s ease;
+    -o-transition: opacity .2s ease,visibility .2s ease,color .2s ease;
+    transition: opacity .2s ease,visibility .2s ease,color .2s ease;
+    color: #191919;
+    font-family: "Woodford Bourne",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 9px;
+    line-height: 1.2;
+    opacity: 1;
+    visibility: visible;
+}
+
+.cs-header__nav {
+    display: block;
+    width: auto;
+    text-align: center;
+}
+
+@media screen and (min-width: 1025px) {
+    .cs-header__nav {
+        display: block!important;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .cs-header .main-menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+.cs-header .main-menu li {
+    position: relative;
+    font-size: initial;
+    line-height: normal;
+}
+
+.cs-header .main-menu>li {
+    display: inline-block;
+    margin: 0;
+}
+
+.cs-header .main-menu li a {
+    -webkit-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease;
+    text-transform: uppercase;
+}
+
+.cs-header .main-menu>li>a {
+    display: inline-block;
+    padding: 5px 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    color: #191919;
+    font-family: "Woodford_Bold",sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2.6px;
+    line-height: 1;
+}
+
+.cs-header__nav-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 15%;
+}
+
+.cs-socials {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.cs-socials--menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.cs-socials__item {
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.cs-socials__item:first-child {
+    margin-left: 0;
+}
+
+.cs-socials--menu .cs-socials__item {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.cs-socials__item a {
+    display: inline-block;
+    -webkit-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease;
+    color: #191919;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.cs-socials__item a i {
+    font-weight: 700;
+}
