@@ -86,6 +86,23 @@
     visibility: visible;
 }
 
+.cs-logo__link--light {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #fff;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.cs-header--fixed:not([class$="-menu"]) .cs-logo__link--light {
+    opacity: 1;
+    visibility: visible;
+}
+
 .cs-header__nav {
     display: block;
     width: auto;
@@ -216,4 +233,21 @@
 
 .cs-socials__item a i {
     font-weight: 700;
+}
+
+.cs-socials--menu .cs-socials__item a {
+    color: #191919;
+}
+
+.cs-header--scroll-menu .cs-header__wrapp {
+    position: fixed;
+    background-color: #fff;
+}
+
+.cs-header--fixed:not([class$="-menu"]) .main-menu>li>a {
+    color: #fff;
+}
+
+.cs-header--fixed:not([class$="-menu"]) .cs-socials--menu .cs-socials__item a {
+    color: #fff;
 }

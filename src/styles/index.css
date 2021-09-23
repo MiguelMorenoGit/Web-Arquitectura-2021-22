@@ -1,0 +1,133 @@
+.cs-main-wrapp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.column_container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.padd-only-xs {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.no-padd {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.cs-main-wrapp__inner {
+    -webkit-box-flex: 2;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+}
+
+.js-parallax-banner-parent {
+    overflow: hidden;
+}
+
+.js-parallax-banner-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+.cs-banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 534px;
+}
+
+.s-back-switch {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cs-overlay, .enable_overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(17,17,17,.3);
+}
+
+.cs-banner__content {
+    position: relative;
+    width: 100%;
+    max-width: 1170px;
+    margin-top: 178px;
+    margin-bottom: 178px;
+    text-align: center;
+}
+
+
+.cs-banner__title {
+    margin-bottom: 0;
+    color: #fff;
+    word-wrap: break-word;
+}
+
+.cs-banner__desc {
+    margin-top: 15px;
+}
+
+.cs-banner__desc h6 {
+    color: #fff;
+    letter-spacing: 1.2px;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+@media screen and (max-width: 1199px) {
+    .cs-banner__content {
+        max-width: 970px;
+    }
+}
+
+
+@media (min-width: 768px){
+    .col-sm-12 {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .cs-banner--fullheight:not(.cs-banner--font-normal) h1.cs-banner__title {
+        font-size: 120px;
+    }
+
+}
+
+

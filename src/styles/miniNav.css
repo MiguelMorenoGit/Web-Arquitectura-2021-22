@@ -1,0 +1,90 @@
+.cs-top-header {
+    padding: 12px 0;
+    background-color: #23252d;
+}
+
+.cs-top-header__content-wr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cs-top-header__links {
+    margin: 0;
+    padding: 0;
+    line-height: 16px;
+    list-style: none;
+}
+
+.cs-top-header__links-item {
+    display: inline-block;
+    position: relative;
+    margin-right: 15px;
+    font-family: 'Woodford_Thin', 'Roboto_Thin', Courier, monospace;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: .3px;
+    line-height: 16px;
+    vertical-align: top;
+}
+
+.cs-top-header__links-item a {
+    display: inline-block;
+    position: relative;
+    -webkit-transition: opacity .2s ease;
+    -o-transition: opacity .2s ease;
+    transition: opacity .2s ease;
+    color: #fff;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    letter-spacing: inherit;
+    line-height: inherit;
+}
+
+.cs-top-header__desc p {
+    color: #fff;
+    font-family: 'Woodford_Thin', 'Roboto_Thin', Courier, monospace;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: .6px;
+    line-height: 16px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .cs-top-header__content-wr {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end;
+        max-width: calc(100% - 30px);
+    }
+}
+@media screen and (max-width: 991px) {
+    .cs-top-header__content-wr {
+        max-width: 750px;
+    }
+
+}
+@media screen and (max-width: 1199px) {
+    .cs-top-header__content-wr {
+        max-width: 970px;
+    }
+
+}
