@@ -83,33 +83,61 @@ export function Navbar (props: INavbarProps) {
                             </ul>
 
                         </div>
-
-
+                        
                     </div>
 
+                    {/* <div>
+                        <a href="/" className="navbar-brand">DSEA servicio de Arquitectura</a>
+                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon"></span>
+                        </button>
+                        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li className="nav-item"><a className="nav-link active" aria-current="page" href="#">HOME</a></li>
+                                <li className="nav-item"><a className="nav-link active" aria-current="page" href="#">SERVICIOS</a></li>
+                                <li className="nav-item"><a className="nav-link active" aria-current="page" href="#">INSPIRACIONES</a></li>
+                                <li className="nav-item"><a className="nav-link active" aria-current="page" href="#">CONTACTO</a></li>
+                            </ul>
+                        </div>
 
-                    {/* </div>
-                    <a href="/" className="navbar-brand">DSEA servicio de Arquitectura</a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li className="nav-item"><a className="nav-link active" aria-current="page" href="#">HOME</a></li>
-                            <li className="nav-item"><a className="nav-link active" aria-current="page" href="#">SERVICIOS</a></li>
-                            <li className="nav-item"><a className="nav-link active" aria-current="page" href="#">INSPIRACIONES</a></li>
-                            <li className="nav-item"><a className="nav-link active" aria-current="page" href="#">CONTACTO</a></li>
-                        </ul>
-                    </div>
+                    </div> */}
                     
                     
-                    <div className="col-md-3 text-end">
+                    {/* <div className="col-md-3 text-end">
                         <i>Icon Facebook</i>
                         <i>Icon Linkedin</i>
                     </div> */}
                 </div>            
 
             </header>
+            {/* <div className='cs-main-wrapp__inner'>
+                <div>
+                    <div className='container-fluid no-padd cs-parent '>
+                        <div className='cs-parent__img  cs-parent__img--not-empty js-parallax-banner-parent'>
+                            <span className='cs-overlay'></span>
+                            <div className='js-parallax-banner-item s-back-switch parallaxing' >
+                                <img src="" alt="" />
+                            </div>
+                        </div>   
+                        <div className='cs-parent__content-wr'>
+                            <div className="container text-center">
+                                <div className="row">
+                                    <div className="col">
+                                    Column
+                                    </div>
+                                    <div className="col">
+                                    Column
+                                    </div>
+                                    <div className="col">
+                                    Column
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+
+                </div>
+            </div> */}
             
         </>
      

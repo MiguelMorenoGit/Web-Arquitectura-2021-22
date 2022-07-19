@@ -2,6 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { Navbar } from "../components/navbar"
 import { MiniNav } from "../components/miniNav"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 // styles
 
@@ -48,7 +49,6 @@ export const IndexPage = () => {
                         <div className="column_container col-sm-12 ">
                             <div>
                                 <div>
-
                                     <section className="container-fluid cs-banner no-padd  play cs-banner--fullheight js-fullheight js-parallax-banner-parent" style={{minHeight: "571px"}}>
                                         <div className="js-parallax-banner-item s-back-switch parallaxing"
                                             style={{ 
@@ -68,10 +68,94 @@ export const IndexPage = () => {
                                             </div>
                                         </div>
                                     </section>
-
+                                    <div className='cs-parent__content-wr'>
+                                    <div className="container text-center">
+                                        <div className="row">
+                                            <div className="col">
+                                                <div className="card" style={{"width": "18rem"}}>
+                                                    <img src="..." className="card-img-top" alt="..."/>
+                                                    <div className="card-body">
+                                                        <h5 className="card-title">Card title</h5>
+                                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        <a href="#" className="btn btn-primary">Go somewhere</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col">
+                                                <div className="card" style={{"width": "18rem"}}>
+                                                    <FontAwesomeIcon icon={"calendar-alt"} className="fa" />
+                                                    <div className="card-body">
+                                                        <h5 className="card-title">Card title</h5>
+                                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        <a href="#" className="btn btn-primary">Go somewhere</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col">
+                                                <div className="card" style={{"width": "18rem"}}>
+                                                    <img src="..." className="card-img-top" alt="..."/>
+                                                    <div className="card-body">
+                                                        <h5 className="card-title">Card title</h5>
+                                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        <a href="#" className="btn btn-primary">Go somewhere</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div className="row-fluid row-no-padding">
+                        <div className="column_container col-sm-12 ">
+                            <div className='container-fluid no-padd cs-parent '>
+                                <div className='cs-parent__img  cs-parent__img--not-empty js-parallax-banner-parent'>
+                                    <span className='cs-overlay'></span>
+                                    <div className='js-parallax-banner-item s-back-switch parallaxing' >
+                                        <img src="" alt="" />
+                                    </div>
+                                </div>   
+                                <div className='cs-parent__content-wr'>
+                                    <div className="container text-center">
+                                        <div className="row">
+                                            <div className="col">
+                                                <div className="card" style={{"width": "18rem"}}>
+                                                    <img src="..." className="card-img-top" alt="..."/>
+                                                    <div className="card-body">
+                                                        <h5 className="card-title">Card title</h5>
+                                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        <a href="#" className="btn btn-primary">Go somewhere</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col">
+                                                <div className="card" style={{"width": "18rem"}}>
+                                                    <img src="..." className="card-img-top" alt="..."/>
+                                                    <div className="card-body">
+                                                        <h5 className="card-title">Card title</h5>
+                                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        <a href="#" className="btn btn-primary">Go somewhere</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col">
+                                                <div className="card" style={{"width": "18rem"}}>
+                                                    <img src="..." className="card-img-top" alt="..."/>
+                                                    <div className="card-body">
+                                                        <h5 className="card-title">Card title</h5>
+                                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        <a href="#" className="btn btn-primary">Go somewhere</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+
                     </div>
                     <div className="row-full-width clearfix"></div>
                 </div>
